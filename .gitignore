@@ -1,0 +1,60 @@
+# Environment variables and secrets
+.env
+*.env
+config.json
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv
+.env.local
+
+# Logs and databases
+*.log
+*.sqlite
+chatbot.log
+PyWhatKit_DB.txt
+Data/ChatLog.json
+
+# WhatsApp session data
+whatsapp_session/
+
+# Emergency recordings and data
+Data/Emergency/
+recordings/
+emergency_audio_*.wav
+
+# IDE specific files
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+.DS_Store
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.bak
+Frontend/Files/
+*.data
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Local development settings
+local_settings.py
+
+
+Data/emergency_reportcoordinates_*.txt
